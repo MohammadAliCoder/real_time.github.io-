@@ -1,0 +1,34 @@
+
+/* for video*/
+:root{
+    --plyr-color-main: #9647db;
+}
+body{
+    box-sizing: border-box;
+}
+.glightbox-clean .gprev{
+    display: none;
+}
+.glightbox-clean .gnext{
+    display: none;
+}
+
+
+/* for swiper*/
+#PricingPlans .swiper-slide img{width:100%}
+#PricingPlans .swiper{margin:0 30px}
+#PricingPlans .swiper-button-next,#PricingPlans .swiper-button-prev{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:#9647db;
+    width:30px;
+    height:30px;
+    z-index: 10;
+    border-radius:100%}
+#PricingPlans .swiper-button-next:after,#PricingPlans .swiper-button-prev:after{font-size:16px}
+
+
+
